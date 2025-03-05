@@ -1,10 +1,8 @@
 import discord
 from discord.ext import commands
 
-# Replace 'YOUR_BOT_TOKEN' with your bot token
-TOKEN = 'YOUR_BOT_TOKEN'
 
-# Set the command prefix (e.g., !hello)
+TOKEN = 'YOUR_BOT_TOKEN'
 intents = discord.Intents.default()
 intents.typing = False
 intents.presences = False
